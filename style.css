@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+
+}
+nav{
+    background-image: url(./imagenes/estrellas.jpg);
+    display: flex;
+}
+
+.opciones{
+margin: 10vh;
+}
+
+.btnes{
+
+    display:flex;
+    justify-content: center;
+    margin: 2vh
+}
+
+.btn {
+    margin: 1vh;
+	box-shadow: -7px 1px 0px -44px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:12px;
+	border:2px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 9px;
+	text-decoration:none;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+

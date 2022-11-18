@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <nav>
+            <div>
+                <img src="https://api.nasa.gov/assets/img/favicons/favicon-192.png" alt="">
+            </div>
+            <div class="opciones">
+                <select name="Robots" id="select1">
+                    <option value="curiosity"> Robot Curiosity</option>
+                    <option value="opportunity"> Robot Opportunity</option>
+                    <option value="spirit"> Robot Spirit</option>
+                </select>
+        
+                <select name="tipoFecha" id="select2">
+                    <option value="earth_date"> Fecha Planeta Tierra</option>
+                    <option value="sol"> Fecha Solar</option>
+                </select>
+                
+                <input type="text" placeholder="Año-Mes-Dia" value="" id="input1"> 
+                
+                <select name="camara" id="select3">
+                    <option value="FHAZ"> Front Hazard Avoidance Camera </option>
+                    <option value="RHAZ"> Rear Hazard Avoidance Camera</option>
+                    <option value="MAST"> Mast Camera</option>
+                    <option value="CHEMCAM"> Chemistry and Camera Complex</option>
+                    <option value="MAHLI"> Mars Hand Lens Imager</option>
+                    <option value="MARDI"> Mars Descent Imager</option>
+                    <option value="NAVCAM"> Navigation Camera</option>
+                    <option value="PANCAM"> Panoramic Camera</option>
+                    <option value="MINITES"> Miniature Thermal Emission Spectrometer (Mini-TES)</option>
+                </select>
+                <button onclick="actualizarDatos()">Actualizar</button>
+
+                <div class="btnes">
+                    <button class="btn" id="btnPag1">1</button>
+                    <button class="btn" id="btnPag2">2</button>
+                    <button class="btn" id="btnPag3">3</button>
+                    <button class="btn" id="btnPag4">4</button>
+                    <button class="btn" id="btnPag5">5</button>
+                    <button class="btn" id="btnPag6">6</button>
+                    <button class="btn" id="btnPag7">7</button>
+                    <button class="btn" id="btnPag8">8</button>
+                    <button class="btn" id="btnPag9">9</button>
+                </div>
+            </div>
+            
+        </nav>
+
+
+
+        <div id="main">
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
